@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de una pokedex usando position y flexbox" />
+    <meta name="author" content="Oroñez Maximiliano" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Pokedex</a></li>
+          <li><a href="#">Aplicaciones</a></li>
+          <li><a href="#">Juego de cartas</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Pokedex</h1>
+      </section>
+      <section>
+        <div>
+          <form>
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar">
+              <option value="inferior">Número inferior</option>
+              <option value="superior">Número superior</option>
+              <option value="A-Z">A-Z</option>
+              <option value="Z-A">Z-A</option>
+            </select>
+          </form>
+        </div>
+        <div class="pokepadre">
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+              alt="bulbasour"
+            />
+            <p class="pokemonNumber">N.º 0001</p>
+            <h4>Bulbasaur</h4>
+            <div class="linea">
+              <div class="badge planta">
+                <p class="m-0">Planta</p>
+              </div>
+              <div class="badge veneno">
+                <p class="m-0">Veneno</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png"
+              alt="Ivysaur"
+            />
+            <p class="pokemonNumber">N.º 0002</p>
+            <h4>Ivysaur</h4>
+            <div class="linea">
+              <div class="badge planta">
+                <p class="m-0">Planta</p>
+              </div>
+              <div class="badge veneno">
+                <p class="m-0">Veneno</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png"
+              alt="Venusaur"
+            />
+            <p class="pokemonNumber">N.º 0003</p>
+            <h4>Venusaur</h4>
+            <div class="linea">
+              <div class="badge planta">
+                <p class="m-0">Planta</p>
+              </div>
+              <div class="badge veneno">
+                <p class="m-0">Veneno</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"
+              alt="Charmander"
+            />
+            <p class="pokemonNumber">N.º 0004</p>
+            <h4>Charmander</h4>
+            <div class="linea">
+              <div class="badge fuego">
+                <p class="m-0">Fuego</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png"
+              alt="Charmeleon"
+            />
+            <p class="pokemonNumber">N.º 0005</p>
+            <h4>Charmeleon</h4>
+            <div class="linea">
+              <div class="badge fuego">
+                <p class="m-0">Fuego</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png"
+              alt="Charizard"
+            />
+            <p class="pokemonNumber">N.º 0006</p>
+            <h4>Charizard</h4>
+            <div class="linea">
+              <div class="badge fuego">
+                <p class="m-0">Fuego</p>
+              </div>
+              <div class="badge volador">
+                <p class="m-0">Volador</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png"
+              alt="Squirtle"
+            />
+            <p class="pokemonNumber">N.º 0007</p>
+            <h4>Squirtle</h4>
+            <div class="linea">
+              <div class="badge aquatico">
+                <p class="m-0">Agua</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/008.png"
+              alt="Wartortle"
+            />
+            <p class="pokemonNumber">N.º 0008</p>
+            <h4>Wartortle</h4>
+            <div class="linea">
+              <div class="badge aquatico">
+                <p class="m-0">Agua</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/009.png"
+              alt="Blastoise"
+            />
+            <p class="pokemonNumber">N.º 0009</p>
+            <h4>Blastoise</h4>
+            <div class="linea">
+              <div class="badge aquatico">
+                <p class="m-0">Agua</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/090.png"
+              alt=""
+            />
+            <p class="pokemonNumber">N.º 0010</p>
+            <h4>Sherllder</h4>
+            <div class="linea">
+              <div class="badge aquatico">
+                <p class="m-0">Agua</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/091.png"
+              alt="Cloyster"
+            />
+            <p class="pokemonNumber">N.º 0011</p>
+            <h4>Cloyster</h4>
+            <div class="linea">
+              <div class="badge aquatico">
+                <p class="m-0">Agua</p>
+              </div>
+              <div class="badge hielo">
+                <p class="m-0">Hielo</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/143.png"
+              alt="Snorlas"
+            />
+            <p class="pokemonNumber">N.º 0012</p>
+            <h4>Snorlas</h4>
+            <div class="linea">
+              <div class="badge sin-elemento">
+                <p class="m-0">Normal</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/109.png"
+              alt="Koffing"
+            />
+            <p class="pokemonNumber">N.º 0013</p>
+            <h4>Koffing</h4>
+            <div class="linea">
+              <div class="badge veneno">
+                <p class="m-0">Veneno</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/110.png"
+              alt="Weesing"
+            />
+            <p class="pokemonNumber">N.º 0014</p>
+            <h4>Weesing</h4>
+            <div class="linea">
+              <div class="badge veneno">
+                <p class="m-0">Veneno</p>
+              </div>
+            </div>
+          </article>
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/151.png"
+              alt="Mew"
+            />
+            <p class="pokemonNumber">N.º 0015</p>
+            <h4>Mew</h4>
+            <div class="linea">
+              <div class="badge psiquico">
+                <p class="m-0">Psiquico</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="pokecar">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/150.png"
+              alt="Mewtwo"
+            />
+            <p class="pokemonNumber">N.º 0016</p>
+            <h4>Mewtwo</h4>
+            <div class="linea">
+              <div class="badge psiquico">
+                <p class="m-0">Psiquico</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="sidebar">
+        <div class="login">
+          <i class="bi bi-person-circle"></i>
+          <p class="m-0">Iniciar sesión</p>
+        </div>
+        <div class="search">
+          <i class="bi bi-search"></i>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="m-0">&copy; Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
