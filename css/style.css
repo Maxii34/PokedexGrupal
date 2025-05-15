@@ -274,5 +274,15 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+  .card{
+    height: 280px;
+  }
 
+}
+
+/*Media query para dispositivos large*/
+@media screen and (min-width: 992px) {
+  .card{
+    height: 380px;
+  }
 }
