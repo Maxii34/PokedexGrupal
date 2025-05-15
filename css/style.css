@@ -40,6 +40,7 @@ header {
 nav {
   text-align: center;
   border-bottom: 3px solid #ddd;
+  height: 50px;
 }
 
 nav a {
@@ -62,9 +63,11 @@ nav ul li {
   transition: 0.3s;
 }
 
+
 nav li:hover {
   background: #f2f2f2;
 }
+
 
 .active {
   background: var(--rojo);
