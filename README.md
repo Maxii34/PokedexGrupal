@@ -3,7 +3,7 @@
 Practica de trabajo grupal con git, github.
 
 ## Demo del proyecto:
-👉 Mira la demo del proyecto aqui.
+👉 Mira la demo del proyecto [aqui.](https://app.netlify.com/projects/pokedexgrupol/overview)
 
 ## Tecnologias utilizadas:
 
@@ -19,6 +19,6 @@ Practica de trabajo grupal con git, github.
 
 ## 👨‍💻 Autores:
 
-- [Ordoñez Maximiliano]()
-- 
-- 
+- [Ordoñez Maximiliano Exequiel](https://github.com/Maxii34)
+- [Pablo German Jimenes](https://github.com/RoblesLuis2212)
+- [Luis Geremias Robles](https://github.com/linkincito)
