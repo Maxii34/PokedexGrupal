@@ -20,5 +20,5 @@ Practica de trabajo grupal con git, github.
 ## 👨‍💻 Autores:
 
 - [Ordoñez Maximiliano Exequiel](https://github.com/Maxii34)
-- [Pablo German Jimenes](https://github.com/RoblesLuis2212)
-- [Luis Geremias Robles](https://github.com/linkincito)
+- [Pablo German Jimenes](https://github.com/linkincito)
+- [Luis Geremias Robles](https://github.com/RoblesLuis2212)
