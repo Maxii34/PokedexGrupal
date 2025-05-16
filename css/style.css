@@ -119,6 +119,19 @@ article {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.cards-evolutions {
+  width: 200px;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 article img {
   width: 100%;
   /* display: block; */
