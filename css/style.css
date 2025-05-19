@@ -32,14 +32,15 @@ header {height: 30px;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: rgb(212, 211, 211);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 2;
+  
 }
 
 nav {
   text-align: center;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 5px solid #ddd;
   height: 70px;
 }
 
@@ -59,7 +60,7 @@ nav ul li {
   display: inline-block;
   padding: 15px 20px;
   font-size: 14px;
-  color: #666;
+  color: #d5c8c8;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
