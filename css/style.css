@@ -48,10 +48,13 @@ nav a {
 
   text-decoration: none;
   color: var(--gris);
+  
 }
 
 nav ul {
   list-style: none;
+  background-color:rgb(213, 210, 210)
+  
   
 }
 
