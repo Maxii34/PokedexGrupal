@@ -28,7 +28,7 @@ main{
   flex-grow: 1;
 }
 /* Estilos para el navbar fijo */
-header {
+header {height: 30px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -40,19 +40,22 @@ header {
 nav {
   text-align: center;
   border-bottom: 3px solid #ddd;
-  height: 50px;
+  height: 70px;
 }
 
 nav a {
+
   text-decoration: none;
   color: var(--gris);
 }
 
 nav ul {
   list-style: none;
+  
 }
 
 nav ul li {
+    
   display: inline-block;
   padding: 15px 20px;
   font-size: 14px;
@@ -67,6 +70,7 @@ nav ul li {
 nav li:hover {
   background: #f2f2f2;
 }
+
 
 
 .active {
