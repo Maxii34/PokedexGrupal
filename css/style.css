@@ -299,3 +299,43 @@ footer {
     height: 380px;
   }
 }
+/*Estilos para la pagina de Error404*/
+.error-container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px; /* espacio para el navbar fijo */
+    }
+
+    .error-box {
+      max-width: 500px;
+      width: 100%;
+      background-color: white;
+      border: 2px dashed #2a75bb;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .error-box h1 {
+      font-size: 4rem;
+      color: #dc3545;
+    }
+
+    .error-box p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .btn-pokemon {
+      background-color: #ffcb05;
+      color: #2a75bb;
+      font-weight: bold;
+      border: none;
+    }
+
+    .btn-pokemon:hover {
+      background-color: #ffe066;
+    }
